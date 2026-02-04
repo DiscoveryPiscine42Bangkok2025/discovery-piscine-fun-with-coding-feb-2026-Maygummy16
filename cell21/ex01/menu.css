@@ -1,0 +1,45 @@
+body {
+    background: #eee;
+    display: flex; /*จัดตนง่ายๆ*/
+    justify-content: center; /*จัดกลางเเนวนอน*/
+    align-items: center; /*จัดกลางเเนวตั้ง*/
+    height: 100vh;
+}
+
+.menu {
+    position: relative; /*ปักหมุดไว้ dropdownเกาะ*/
+}
+
+.btn {
+    padding: 15px 30px; /*ระยะขอบใน*/
+    font-size: 18px; /*ขนาดตัวอักษร*/
+    background: #c0392b; /*สีปุ่ม*/
+    color: white; /*สีข้อความ*/
+    border: none; /*ไม่มีขอบ*/
+    cursor: pointer; /*เม้า = มือ*/
+}
+
+/*ซ่อนก่อน*/
+.dropdown {
+    display: none; /*ซ่อนเมนูไว้ก่อน*/
+    position: absolute; /*วางตนตามเมนู*/
+    background: white;
+    width: 100%; /*กว้างเท่าปุ่ม*/
+}
+
+.dropdown a {
+    display: block; /*เตมเเถว*/
+    padding: 10px; /*ช่องว่างด้านในกล่อง ทําให้เมนูใหญ่*/
+    text-decoration: none; /*ไม่มีเส้นใต้*/
+    color: black;
+}
+
+/*เม้าชี้ละเปี่ยนสี*/
+.dropdown a:hover {
+    background: #f2cdb8;
+}
+
+/*เม้ายุบนเมนูให้ dropdownเเสดง*/
+.menu:hover .dropdown {
+    display: block;
+}
