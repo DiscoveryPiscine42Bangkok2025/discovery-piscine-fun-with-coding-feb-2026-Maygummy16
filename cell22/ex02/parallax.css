@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    height: 100%; /*body เตมจอ*/
+}
+
+.img1 {
+    background-image: url("https://picsum.photos/1200/800");
+    height: 100vh;
+    background-size: cover; /*ขยายรุปให้เตม div*/
+    background-position: center; /*เอากลางรุปโช*/
+    background-attachment: fixed; /*รุปไม่เลื่อน , contentเลื่อน*/
+
+    display: flex;
+    justify-content: center; /*กลางเเนวนอน*/
+    align-items: center; /*กลางเเนวตั้ง*/
+}
+
+.img2 {
+    background-image: url("https://picsum.photos/1200/801");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*ข้อความกลางภาพ*/
+.center {
+    color: white;
+    font-size: 40px;
+    background: rgba(0,0,0,0.5);
+    padding: 20px; /*พทรอบข้อความ*/
+}
+
+.black {
+    height: 300px;
+    background: black; /*พื้นดํา*/
+    color: white; /*ตัวขาว*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 25px; /*ขนาดตัวอักษร*/
+}
