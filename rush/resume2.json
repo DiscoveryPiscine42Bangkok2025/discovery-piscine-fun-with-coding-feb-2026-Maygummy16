@@ -1,0 +1,68 @@
+{
+  "profile": {
+    "name": "สุมนต์รัตน์ ธนะ",
+    "job_title": "วิศวกรรมไอโอที",
+    "photo_url": "images/sumthana.jpg",
+    "introduction": "สวัสดีค่ะ ดิฉันเป็นนักศึกษาที่สนใจด้าน Internet of Things และ Embedded Systems มีความชอบในการสร้างโปรเจกต์ที่ผสมผสานฮาร์ดแวร์และซอฟต์แวร์ เช่น Arduino และ ESP32 กำลังพัฒนาทักษะด้าน C, Python และ Linux อย่างต่อเนื่อง รักการเรียนรู้สิ่งใหม่ๆ และต้องการสร้างผลงานที่สามารถใช้งานได้จริงและต่อยอดช่วยเหลือผู้คนในอนาคตค่ะ"
+  },
+  "experience_skills": {
+    "experience": [
+      {
+        "title": "IoT & Embedded Systems Developer (Student Projects)",
+        "description": "ออกแบบและพัฒนาระบบ IoT โดยใช้ Arduino และ ESP32 ตั้งแต่ระดับวงจรจนถึงซอฟต์แวร์ ควบคุมอุปกรณ์ผ่านเซนเซอร์ วิเคราะห์ข้อมูลแบบเรียลไทม์ และสร้างต้นแบบฮาร์ดแวร์ที่เชื่อมต่อกับแอปพลิเคชัน พร้อมฝึกกระบวนการ Debug และ System Integration"
+      },
+      {
+        "title": "Programming Tutor & Technical Mentor",
+        "description": "ถ่ายทอดความรู้ด้านการเขียนโปรแกรมให้ผู้เรียนหลายช่วงวัย สร้างหลักสูตร Coding เบื้องต้น ฝึกแนวคิด Problem Solving และ Computational Thinking พร้อมพัฒนาทักษะการสื่อสารเชิงเทคนิค"
+      },
+      {
+        "title": "Software & Computer Vision Intern",
+        "description": "ทำงานร่วมกับทีมพัฒนาในการวิจัยวิธีการค้นหาข้อมูล (Search Optimization) ฝึกสร้างโมเดล Classification และ Object Detection รวมถึงเข้าใจ Pipeline ของ Machine Learning ตั้งแต่เตรียมข้อมูลจนถึงการทดสอบโมเดล"
+      },
+      {
+        "title": "Embedded & Firmware Engineering Intern",
+        "description": "พัฒนา Proof of Concept สำหรับระบบ Embedded ความเร็วสูง มีส่วนร่วมใน Firmware Development และ Hardware–Software Co-design พร้อมเรียนรู้การทำงานในสภาพแวดล้อมอุตสาหกรรมจริง"
+      }
+    ],
+    "skills": [
+      "C/C++",
+      "Python",
+      "Shell",
+      "Git",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "ESP32",
+      "PCB Design (Basic)",
+      "Circuit Prototyping",
+      "Arduino",
+      "Basic Electronics",
+      "IoT Prototyping",
+      "OpenCV",
+      "ROS2",
+      "NumPy",
+      "Pandas",
+      "TensorFlow",
+      "Docker",
+      "Linux",
+      "Problem Solving",
+      "Debugging",
+      "Self Learning"
+    ]
+  },
+  "contact": {
+    "เบอร์โทรศัพท์": {
+      "icon": "bi-telephone",
+      "value": "095-7254589"
+    },
+    "อีเมลล์": {
+      "icon": "bi-envelope-at",
+      "value": "Sumonratthana@gmail.com"
+    },
+    "กิตฮับ": {
+      "icon": "bi-github",
+      "value": "github.com/Maygummy16"
+    }
+  }
+}
